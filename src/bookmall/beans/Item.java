@@ -12,6 +12,10 @@ public class Item {
 		this.setTot((float)Math.round(this.book.getPrice()*this.quant*100)/100);
 	}
 	
+	public Item() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void setBook(Book d){
 		this.book = d;
 	}
